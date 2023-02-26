@@ -12,9 +12,6 @@ from aws_cdk import (
 )
 import aws_cdk as cdk
 
-vpcID= "vpc-5eb64e38" # Can't hardcore VPC ID, variabe File)
-ExistingEBS="vol-036b9ac1db520fc4e" 
-
 class LifeCycleStack(Stack):
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
